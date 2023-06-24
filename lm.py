@@ -19,7 +19,7 @@ def ask(infos, question):
 def main():
 	
 	write(console, "$", "blue", "setting up system")
-	lm.set_max_ram(8)
+	lm.set_max_ram(4)
 	write(console, "^", "green", "system ready")
 
 	infos = [
